@@ -2,7 +2,7 @@ package fr.odevjava.whatsapp_clone_back.shared.authentication.domain;
 
 
 
-import fr.codecake.whatsappclone.shared.error.domain.Assert;
+import fr.odevjava.whatsapp_clone_back.shared.error.domain.Assert;
 
 import java.util.Map;
 import java.util.function.Function;

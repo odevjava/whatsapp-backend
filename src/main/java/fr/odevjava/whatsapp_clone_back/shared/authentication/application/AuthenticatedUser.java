@@ -1,10 +1,10 @@
 package fr.odevjava.whatsapp_clone_back.shared.authentication.application;
 
 import com.nimbusds.jose.shaded.gson.internal.LinkedTreeMap;
-import fr.codecake.whatsappclone.shared.authentication.domain.Role;
-import fr.codecake.whatsappclone.shared.authentication.domain.Roles;
-import fr.codecake.whatsappclone.shared.authentication.domain.Username;
-import fr.codecake.whatsappclone.shared.error.domain.Assert;
+import fr.odevjava.whatsapp_clone_back.shared.authentication.domain.Role;
+import fr.odevjava.whatsapp_clone_back.shared.authentication.domain.Roles;
+import fr.odevjava.whatsapp_clone_back.shared.authentication.domain.Username;
+import fr.odevjava.whatsapp_clone_back.shared.error.domain.Assert;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;

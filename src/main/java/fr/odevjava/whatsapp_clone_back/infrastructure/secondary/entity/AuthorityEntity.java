@@ -1,6 +1,9 @@
 package fr.odevjava.whatsapp_clone_back.infrastructure.secondary.entity;
 
+
+import fr.odevjava.whatsapp_clone_back.infrastructure.secondary.entity.AuthorityEntityBuilder;
 import fr.odevjava.whatsapp_clone_back.messaging.domain.user.aggregate.Authority;
+import fr.odevjava.whatsapp_clone_back.messaging.domain.user.aggregate.AuthorityBuilder;
 import fr.odevjava.whatsapp_clone_back.messaging.domain.user.vo.AuthorityName;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -35,7 +38,7 @@ public class AuthorityEntity {
         return authorities
                 .stream()
                 .map(authority ->
-                        fr.odevjava.whatsapp_clone_back.infrastructure.secondary.entity.AuthorityEntityBuilder.authorityEntity()
+                        AuthorityEntityBuilder.authorityEntity()
                                 .name(authority.getName().name()).build()).collect(Collectors.toSet());
 
     }

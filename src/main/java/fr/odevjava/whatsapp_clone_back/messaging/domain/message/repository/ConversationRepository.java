@@ -5,7 +5,7 @@ import fr.odevjava.whatsapp_clone_back.messaging.domain.message.aggregate.Conver
 import fr.odevjava.whatsapp_clone_back.messaging.domain.message.vo.ConversationPublicId;
 import fr.odevjava.whatsapp_clone_back.messaging.domain.user.aggregate.User;
 import fr.odevjava.whatsapp_clone_back.messaging.domain.user.vo.UserPublicId;
-import org.hibernate.query.Page;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import java.util.List;

@@ -18,4 +18,3 @@ public class Authority {
         return name;
     }
 }
-
